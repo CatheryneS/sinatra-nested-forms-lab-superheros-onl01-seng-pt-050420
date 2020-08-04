@@ -6,8 +6,17 @@
     <title>Team of Heros</title>
 </head>
 <body>
-    <h1><%= @team.name%></h1>
-    
+    <h1><%= @team_name%></h1>
+    <h2>Team Motto: <%= @team_motto%></h2>
+    <h1>Hero Name: <%= @hero_name.first%></h1>
+    <h2>Hero Power: <%= @hero_power.first%></h2>
+    <h2>Hero Biography: <%= @hero_bio.first%></h2>
+    <h1>Hero Name: <%= @hero_name[1]%></h1>
+    <h2>Hero Power: <%= @hero_power[1]%></h2>
+    <h2>Hero Biography: <%= @hero_bio[1]%></h2>
+    <h1>Hero Name: <%= @hero_name.last%></h1>
+    <h2>Hero Power: <%= @hero_power.last%></h2>
+    <h2>Hero Biography: <%= @hero_bio.last%></h2>
 </body>
 </html>
 
